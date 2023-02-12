@@ -1,27 +1,33 @@
-# Final-Year-Project-Website
 
-Website for our final year project
+# Income and Education Level Analysis
 
-- Website can be accessed here: https://i.cs.hku.hk/fyp/2018/fyp18006/
-- Team member: Haoran Qiu, Tao Ji
-- Supervisor: Dr. Heming Cui
+Welcome to our group project on income and education level!
 
-## Introduction
+## Project Description
 
-### FRING: A GEOGRAPHY-BASED P2P OVERLAY NETWORK FOR FAST AND ROBUST BLOCKCHAIN SYSTEMS
+We will be analyzing a dataset on income and education level to explore the relationship between the two variables. Our goal is to understand the patterns in the data and to develop insights that will help policy makers in making decisions related to education and income distribution.
 
-Project FRing includes a noval peer-to-peer overlay network protocol that improves communication efficiency and security among peers, and an implementation of the protocol in C++.
+## Technologies Used
 
-### Background
+- R
+- R Studio
+- tidyverse package
+- ggplot2 package
+- dplyr package
+- Markdown
 
-Blockchain is essentially a public decentralized ledger that securely records transactions between parties anonymously. The key component is to reach agreement among a group of nodes, i.e., consensus. However, based on current Peer-to-Peer network, the broadcast operation is inefficient. Increasing transaction rate leads to traffic congestion. 
+## Project Steps
 
-Intel SGX is a technology which protects code and execution integrity from hardware perspective. It provides chances to modify the network protocol and store some routing information, in order to reduce as many messages as possible and meanwhile retain the properties required by the blockchain application on top of the network. 
+1. **Data Cleaning:** We will start by cleaning the dataset and preparing it for analysis.
+2. **Exploratory Data Analysis:** We will use descriptive statistics and data visualization to explore the relationship between income and education level.
+3. **Statistical Modeling:** We will fit regression models to the data to understand the relationship between income and education level while controlling for other relevant variables.
+4. **Policy Implications:** We will summarize our findings and discuss the implications for policy makers.
 
-This project targets this weakness of the P2P network under blockchain systems, designing and implementing a new protocol in the Peer-to-Peer network which achieves effciency and do not sacrifice any security or any other required properties.
+## Project Deliverables
 
-## Find more
+- A well-documented R Markdown report detailing our methodology, findings, and recommendations.
+- A presentation summarizing our key findings and policy implications.
 
-Learn more from our project website: https://i.cs.hku.hk/fyp/2018/fyp18006/.
+We hope our analysis will contribute to a better understanding of the relationship between income and education level, and ultimately inform policy decisions that promote a more equitable society.
 
-This work is done by HKU System Group.
+![Education and Income](https://media.giphy.com/media/l1J9FETfAabYZ5wys/giphy.gif)
