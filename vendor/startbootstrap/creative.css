@@ -14,7 +14,7 @@
  }
  
  body {
-   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
  
  hr {
    max-width: 50px;
@@ -38,22 +38,27 @@
  h4,
  h5,
  h6 {
-   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  font-weight:normal;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
  
  p {
-   font-size: 18px;
+   font-size: 21px;
    line-height: 1.5;
-   margin-bottom: 20px; }
+   margin-bottom: 20px;
+   font-weight:lighter;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
  
  .bg-primary {
-   background-color:rgb(146,140,130)  !important; }
+   background-color: #68615D !important; }
  
  .bg-dark {
    color: white;
    background-color: #68615D !important; }
  
  .text-faded {
-   color: white; }
+   color: white;
+  font-size: 26px;
+font-weight: lighter;}
  
  section {
    padding: 100px 0; }
@@ -86,34 +91,32 @@
  #mainNav {
    border-color: #68615D;
    background-color: #68615D;
-   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    -webkit-transition: all 0.2s;
    -moz-transition: all 0.2s;
    transition: all 0.2s; }
    #mainNav .navbar-brand {
-     font-weight: 700;
+    font-weight:lighter;
      text-transform: uppercase;
      color: #68615D;
-     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
      #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
        color: #68615D; }
    #mainNav .navbar-toggle {
-     font-size: 12px;
-     font-weight: 700;
-     text-transform: uppercase;
+     font-size: 14px;
+     font-weight:lighter;     text-transform: uppercase;
      color: #68615D; }
    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus,
    #mainNav .navbar-nav > li.nav-item > a.nav-link {
-     font-size: 13px;
-     font-weight: 700;
-     text-transform: uppercase;
+     font-size: 14px;
+     font-weight:400;     text-transform: uppercase;
      color: #222222; }
      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
      #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-       color: #68615D; }
+       color: #222222; }
      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active,
      #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-       color: #68615D !important;
+       color: #222222 !important;
        background-color: transparent; }
        #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover,
        #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
@@ -131,7 +134,7 @@
          color: rgba(255, 255, 255, 0.7); }
          #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
          #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-           color: white; }
+           color:white; }
        #mainNav.navbar-shrink {
          border-color: rgba(34, 34, 34, 0.05);
          background-color: white; }
@@ -237,7 +240,7 @@
        .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
        .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
          padding: 0 15px;
-         font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
        .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
          font-size: 14px;
          font-weight: 600;
@@ -341,11 +344,12 @@
      background-color: white; }
  
  .btn {
-   font-weight: 700;
+   /* font-weight: 700; */
    text-transform: uppercase;
    border: none;
    border-radius: 300px;
-   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+   font-weight:lighter;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
  
  .btn-xl {
    padding: 15px 30px; }
