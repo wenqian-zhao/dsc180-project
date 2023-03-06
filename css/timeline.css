@@ -2,8 +2,13 @@
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .timeline ul {
-  background: rgb(146,140,130);
-  padding: 50px 0;
+  background-image: url("https://capstone-causal-tree.vercel.app/img/background.png");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0;
 }
 
 .timeline ul li {
@@ -11,8 +16,9 @@
   position: relative;
   width: 6px;
   margin: 0 auto;
-  padding-top: 50px;
-  background: #F0EDEAF4;
+  padding-top: 10px;
+  background: #68615D ;
+  filter: drop-shadow(0px 5px 3px #988d87);
 }
 
 .timeline ul li::after {
@@ -21,18 +27,20 @@
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border-radius: 0%;
   background: inherit;
 }
 
 .timeline ul li div {
   position: relative;
+  margin: auto;
   bottom: 0;
-  width: 400px;
-  padding: 15px;
-  background: #F0EDEAF4;
+  width: 600px;
+  padding: 10px;
+  background: #d49f80;
+  filter: drop-shadow(0px 5px 8px #68615D);
   ;
 }
 
@@ -50,19 +58,19 @@
 }
 
 .timeline ul li:nth-child(odd) div::before {
-  left: -15px;
+  left: -20px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #F0EDEAF4 transparent transparent;
+  border-color: transparent #5e473a transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
-  left: -439px;
+  left: -639px;
 }
 
 .timeline ul li:nth-child(even) div::before {
-  right: -15px;
+  right: -20px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #F0EDEAF4;
+  border-color: transparent transparent transparent #5e473a;
 }
 
 time {
@@ -81,7 +89,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: #F0EDEAF4;
+  background: #68615D;
 }
 
 .timeline ul li div {
@@ -131,6 +139,6 @@ time {
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #FDF6E5 transparent transparent;
+    border-color: transparent #68615D transparent transparent;
   }
 }
