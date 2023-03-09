@@ -1,10 +1,4 @@
-/*!
- * Author: James Qiu
- */
 
-/* #mainNav{
-    background: rgb(146,140,130);
-} */
 
 
 html {
@@ -37,17 +31,6 @@ html {
 #progress {
     background-color: #68615D;
 }
-/* 
-#homeHeading{
-    color: #000000;
-}
-
-#homeIntro{
-    color: #000000;
-} */
-
-
-
 
 .box{
     background-color: #68615D !important;
@@ -82,7 +65,7 @@ html {
     width: 3%;
 }
 
-@media (max-width: 770px){
+@media (max-width: 700px){
     .not-available{
         display: none;
     }
@@ -109,6 +92,8 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
+  
+  
 }
 
 /* Next & previous buttons */
@@ -201,6 +186,7 @@ img {vertical-align: middle;}
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
+
   }
   
   /* Clear floats after image containers */
@@ -209,12 +195,3 @@ img {vertical-align: middle;}
     clear: both;
     display: table;
   }
-
-/* .fixed-bg {
-    background-image: url("https://www.shutterstock.com/image-vector/background-topographic-map-lines-contour-600w-1149439178.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */

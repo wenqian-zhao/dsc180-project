@@ -90,10 +90,10 @@
       <div class="container">
         
         <div class="row">
-          <div class="col-lg-16 mx-auto text-center">
+          <div class="col-lg-10 mx-auto text-center">
             <h1 class="section-heading text-white">Introduction</h1>
             <hr class="light">
-            <p class="text-faded">
+            <p class="text">
               Education is a crucial factor in the development of a thriving and prosperous society. From increasing economic growth to promoting civic engagement, education continues to be the key determinant of success in various aspects of life, especially career prospects and high-status income
             levels[3]. Therefore, We intend to estimate the Conditional Average Treatment Effect (CATE) of
             education level on earning using the “honest” estimator proposed in the paper Comprehension
@@ -104,7 +104,7 @@
             </p>
             <h1 class="section-heading text-white">Research Problems</h1>
             <hr class="light">
-            <p class="text-faded", style="text-align: left;">
+            <p class="text", style="text-align: left;">
               
             1. The CATE of college education on yearly income for different years, being 2010, 2000, and 1990.<br><br>
             2. The CATE of college education on yearly income for males and females in 2010.<br><br>
@@ -137,8 +137,7 @@ Publishers, 2009.
       <div class="container">
       	<div class="wrapper">
           <body>
-
-            <div class="slideshow-container">
+            <div class="slideshow-container ">
               <div class="text-faded" style="text-align: center; min-width: 1000px;">
                 <span class="dot text" onclick="currentSlide(1)">Casual Tree</span> 
                 <span class="dot text" onclick="currentSlide(2)">Data</span> 
@@ -154,7 +153,7 @@ Publishers, 2009.
                        Due to the fact that we cannot observe both \(Y_i(1)\) and \(Y_i(0)\) for an individual, the true treatment effect \(\tau\) is also not observable since we are missing half of the \(Y^{obs}\). Thus, the "honest" version of \(EMSE_{\tau}(\Pi)\):
                        \[EMSE_{\tau}(\Pi)\equiv\mathbb{E}_{S^{te},S^{est}}[MSE_{\tau}(S^{te},S^{est},\Pi)]\] is not feasible as we have no knowledge about \(\tau_i\). Therefore, the paper proposed an estimator for \(EMSE_{\tau}(\Pi)\) by modifying the \(MSE_{\mu}\) in CART to get an unbiased estimator \(\widehat{MSE}_{\tau}\) for the treatment effect and the \(EMSE_{\tau}(\Pi)\) in "honest" algorithm to get an unbiased estimator \(\widehat{EMSE}_{\tau}(S^{tr},N^{est},\Pi)\) for \(EMSE_{\tau}(\Pi)\).
                        
-                       Let \(p\) denote the proportion of the treated individuals in a leaf, \(S_{control}^{tr}\) denote the subsample of the control group in the training sample, and \(S_{treat}^{tr\)$ denote the subsample of the treatment group in the training sample, the unbiased estimator for \(EMSE_{\tau}(\Pi)\) for splitting is defined as
+                       Let \(p\) denote the proportion of the treated individuals in a leaf, \(S_{control}^{tr}\) denote the subsample of the control group in the training sample, and \(S_{treat}^{tr}\)$ denote the subsample of the treatment group in the training sample, the unbiased estimator for \(EMSE_{\tau}(\Pi)\) for splitting is defined as
                        \[-\widehat{EMSE}_{\tau}(S^{tr},N^{est},\Pi)\equiv\frac{1}{N^{tr}}\sum_{i \in S^{tr}}\hat{\tau}^2(X_i;S^{tr},\Pi)-(\frac{1}{N^{tr}}+\frac{1}{N^{est}})\cdot \sum_{l \in \Pi}(\frac{S_{S_{treat}^{tr}}^2(l)}{p}+\frac{S_{S_{control}^{tr}}^2(l)}{1-p}).\] 
                    
                        Using the same equation as the splitting criterion with cross-validation sample, the unbiased estimator of \(EMSE_{\tau}(\Pi)\) for cross-validation is  \(-\widehat{EMSE}_{\tau}(S^{tr,cv},N^{est},\Pi)\).
@@ -220,40 +219,7 @@ Publishers, 2009.
       </div>
     
     </section>
-    <!-- <section id="methodology">
-      <div class="container text-center">
-        <h2 class="section-heading">Methodology</h2>
-        <hr>
-      </div>
-      <div class="container">
-      	<div class="wrapper">
-	        <div class="box">
-	            <div class="text"><h5>a</h5>
-	            <hr style="border-color: white">
-		        <p>
-              Placerat pharetra vehicula ornare blandit aliquet dis massa natoque nullam facilisi. Ultricies, venenatis. Class, ultrices molestie hymenaeos nulla placerat, gravida Sem non fermentum accumsan mattis cras, sociosqu suspendisse pulvinar imperdiet.  		    	</p>
-	    	</div>
-	        </div>
-	        <div class="middle"></div>
-	        <div class="box">
-	            <div class="text"><h5>b</h5>
-            	<hr style="border-color: white">
-		        <p>
-              Maecenas venenatis nec urna tristique placerat lacus consequat. Dictumst potenti eros cum accumsan venenatis ad odio. Fringilla euismod ligula purus eros fringilla ligula conubia, convallis pharetra Erat erat, commodo, ultrices.
-            		    	</p>
-		    	</div>
-	        </div>
-	        <div class="middle"></div>
-	        <div class="box">
-	            <div class="text"><h5>c</h5>
-            	<hr style="border-color: white">
-		        <p>
-              Nonummy class placerat eros sem vehicula cubilia malesuada. Tristique varius libero montes. Feugiat etiam diam nostra ligula ridiculus mauris habitant conubia diam dignissim dignissim dolor ad. Sodales per condimentum, in a. Elementum orci. Torquent pharetra augue integer, per ornare tincidunt nibh aliquam volutpat nisi elementum vehicula class nec. Non eleifend id augue suspendisse vel neque tellus nascetur conubia non vivamus.		    	</p>
-			    </div>
-	        </div>
-    	</div>	
-      </div>
-    </section> -->
+
 
     <section class="timeline" id="progress">
       <div class="container">
@@ -310,11 +276,79 @@ Publishers, 2009.
   </div>
     <section id="results">
       <div class="container text-center">
-        <h1 class="section-heading">Results and Deliverables</h1>
+        <h1 class="section-heading">Results</h1>
         <hr>
-        <p>
-          Tincidunt eget magnis ad vehicula Felis justo elit ipsum. Justo purus fermentum justo a placerat fringilla pulvinar ultrices potenti vel pharetra. Aenean massa laoreet class pretium non. Faucibus mus sodales lacinia vel eu habitant aliquet volutpat sociis consectetuer cum. Accumsan ante. Ut sed elementum orci magnis duis quisque senectus eros maecenas. Nascetur torquent nec morbi hymenaeos nibh cras purus rutrum.
-        </p>
+        <h3 class="section-heading" style="text-align: left;">Conclusion</h3>
+        <hr style="margin-left: 0px;">
+
+        <p style="text-align: left;">We have found positive CATE of education on earnings among all of the three research ques-
+          tions. The CATE is larger in recent decades and for younger people. Unexpectedly, there was no
+          significant difference found between the CATE of males and females.</p>
+        <br>
+        <h3 class="section-heading" style="text-align: left;">CATE across Decades</h3>
+        <hr style="margin-left: 0px;">
+        <div class="row">
+          <p style="text-align: left;">We observed that later decades would produce a deeper tree and a larger CATE of education on
+            income. The corresponding average CATE estimation across leaves for the 1990s, 2000s, and
+            2010s are 0.7723, 0.547, and 0.481.</p>
+            <div class="ro_img">
+              <div class="column_img">
+                <img src="img/result/1990.png" alt="30s" style="width:100%">
+                <div style="font-size: small;">Tree by 1990</div>
+              </div>
+              <div class="column_img">
+                <img src="img/result/2000.png" alt="40s" style="width:100%">
+                <div style="font-size: small;">Tree by 2000</div>
+              </div>
+              <div class="column_img">
+                <img src="img/result/2010.png" alt="50s" style="width:100%; background-color: white;">
+                <div style="font-size: small;">Tree by 2010</div>
+              </div>
+            </div>
+          
+        </div>
+        <h3 class="section-heading" style="text-align: left;">CATE across Ages</h3>
+        <hr style="margin-left: 0px;">
+        <div class="row">
+          <p style="text-align: left;">Similar to the former problem, the tree produced is deeper and the CATE is larger for the younger
+            population, which is in our expectation. However, the difference in the tree depth and CATE is
+            not as large as that over decades. The corresponding average CATE estimation across leaves for
+            people in their 30s, 40s, and 50s are 0.74, 0.679, and 0.645.</p>
+            <div class="ro_img">
+              <div class="column_img">
+                <img src="img/result/1990.png" alt="30s" style="width:100%">
+                <div style="font-size: small;">Tree from age 30s</div>
+              </div>
+              <div class="column_img">
+                <img src="img/result/2000.png" alt="40s" style="width:100%">
+                <div style="font-size: small;">Tree from age 40s</div>
+              </div>
+              <div class="column_img">
+                <img src="img/result/2010.png" alt="50s" style="width:100%; background-color: white;">
+                <div style="font-size: small;">Tree from age 50s</div>
+              </div>
+            </div>
+          
+        </div>
+
+        <h3 class="section-heading" style="text-align: left;">CATE across Genders</h3>
+        <hr style="margin-left: 0px;">
+        <div class="row">
+          <p style="text-align: left;">Different from the two above questions, there is no obvious difference in the tree depth and
+            CATE across genders. The corresponding average CATE estimation across leaves for males and
+            females in 2010 is 0.556 and 0.546.</p>
+            <div class="ro_img">
+              <div class="column_img">
+                <img src="img/result/1990.png" alt="30s" style="width:100%">
+                <div style="font-size: small;">Tree by male's data at 2010</div>
+              </div>
+              <div class="column_img">
+                <img src="img/result/2000.png" alt="40s" style="width:100%;">
+                <div style="font-size: small;">Tree by female's data at 2010</div>
+              </div>
+            </div>
+          
+        </div>
     </section>
 
     <section class="bg-primary" id="documentations">
@@ -346,21 +380,6 @@ Publishers, 2009.
               </a>
             </div>
             
-            <!-- <div class="col-lg-3 col-sm-6">
-              <a class="portfolio-box" href="documents/interim-report.pdf">
-                <img class="img-fluid" src="img/document/placeholder.jpg" alt="">
-                <div class="portfolio-box-caption">
-                  <div class="portfolio-box-caption-content">
-                    <div class="project-category text-faded">
-                      Not Available Currently
-                    </div>
-                    <div class="project-name">
-                      Interim Report
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div> -->
 
             <div class="col-lg-3 col-sm-6">
               <a class="portfolio-box" href="mailto:jamesqiu@hku.hk">
